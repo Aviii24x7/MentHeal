@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> MentHeal|{% block title_block %}{% endblock  %} </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{% static 'base.css' %}">
+        {% block css_block %}{% endblock  %}
+    </head>
+    <body>
+        <div class="header">
+            <a href="#" class="app"><h1>MentHeal</h1></a>
+            <div class="header-right">
+              <a class="active" href="#Posts">Posts</a>
+              <a href="#SelfTherapy">Self-Therapy</a>
+              <a href="#about">About</a>
+            </div>
+          </div>
+        {% block body_block %}{% endblock  %}
+    </body>
+</html>
