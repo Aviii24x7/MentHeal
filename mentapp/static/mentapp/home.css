@@ -1,3 +1,89 @@
 h1{
-  color: rgb(9, 1, 93);
+
+  color: #5D001E;
 }
+
+h2{
+  color: #9a1750;
+  padding: 1rem;
+}
+#selftherapy{
+  background-color: #E3E2DF;
+  padding: 1rem;
+  border-radius: 12px;
+  width: 49rem;
+  margin: 4rem auto 4rem auto;
+  box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.4);
+}
+
+#selftherapy ul {
+  list-style: none;
+  display: flex;
+  flex-flow: column wrap;
+  height: 22em;
+}
+
+#selftherapy img{
+  width:9cm;
+    /* width: 45rem; */
+    
+    object-fit: cover;
+    object-position: top;
+    border: 5px solid white;
+    border-radius: 12px;
+    background-color: whitesmoke;
+    /* transform: rotateZ(deg); */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+}
+
+
+#selftherapy h2 {
+  text-align: center;
+}
+
+#selftherapy ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+#selftherapy li {
+  flex: 1;
+}
+
+#selftherapy a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s ease;
+    padding: 1rem;
+}
+
+#selftherapy a:hover,
+#selftherapy a:active
+    {
+      transform: scale(1, 1);
+      background-color: #ee4c7c;
+      color: white;
+    }
+
+    #about {
+      text-align: center;
+      padding: 2rem;
+      background-color: #641c3b;
+      margin-top: 5rem;
+  }
+  
+  #about h2 {
+      font-size: 3rem;
+  }
+  
+  #about h2{
+    color: whitesmoke;
+  }
+  #about p{
+      font-size: 1.5rem;
+      color: #f6efc0;
+  }
+  

@@ -1,7 +1,7 @@
 /* Style the header with a grey background and some padding */
 .header {
     overflow: hidden;
-    background-color: #ffbfbf;
+    background-color: #c2a2b9;
     padding: 20px 10px;
   }
   
@@ -31,7 +31,7 @@
   
   /* Style the active/current link*/
   .header a.active {
-    background-color: dodgerblue;
+    background-color: #a40d3b;
     color: white;
   }
   
@@ -50,4 +50,9 @@
     .header-right {
       float: none;
     }
+  }
+
+  h3{
+    padding: 1rem;
+    margin: auto 1rem;
   }
