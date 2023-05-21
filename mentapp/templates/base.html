@@ -12,11 +12,11 @@
     </head>
     <body>
         <div class="header">
-            <a href="#" class="app"><h1>MentHeal</h1></a>
+            <a href="{% url 'startpage' %}" class="app"><h1>MentHeal</h1></a>
             <div class="header-right">
-              <a class="active" href="#Posts"><h3>Posts</h3></a>
+              <a class="active" href="{% url 'newpost' %}"><h3>New Posts</h3></a>
               <a href="#SelfTherapy"><h3>Self-Therapy</h3></a>
-              <a href="#about"><h3>About</h3></a>
+              <a href="#about"><h3>Donate++</h3></a>
             </div>
           </div>
         {% block body_block %}{% endblock  %}

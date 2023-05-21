@@ -4,8 +4,10 @@ h1{
 }
 
 h2{
-  color: #9a1750;
+  color: #4d0d28;
   padding: 1rem;
+  font-size: 1.17rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #selftherapy{
   background-color: #E3E2DF;
